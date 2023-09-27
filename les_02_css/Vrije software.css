@@ -1,8 +1,32 @@
-h1, h2 {
-    text-align: center;
-    color: blue;
+body{
+    background-color: #eee;
+    font-size: 14px;
+    font-style: arial;
 }
-p {
-    text-align: right;
-    color: darkgreen;
+h1 {
+    text-align: center;
+    color: white;
+    background-color: maroon;
+    font-style: normal;
+    
+}
+h2{
+    text-align: left;
+    color: black;
+    font-style: unset;
+    background-color: lightblue;
+    border-left: 6px solid darkblue;
+    padding-left: 10px;
+}
+p{
+    color: gray;
+    margin-bottom: 25px;
+}
+#extra{
+    font-weight: 700;
+    color: black;
+}
+.lijntje{
+    font-weight: 700;
+    text-decoration:underline;
 }
