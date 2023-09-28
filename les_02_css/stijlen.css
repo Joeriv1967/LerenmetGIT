@@ -1,0 +1,22 @@
+body{
+    background-color: #eee;
+    font-size: 14px;
+    font-style: arial;
+}
+h1 {
+    text-align: left;
+    color: black;
+    font-style:initial;
+    
+}
+#extra{
+    font-weight: 700;
+    color: black;
+}
+.Lipsum{
+    font-weight: 700;
+    color: red;
+}
+.DummyImage{
+    color: red;
+}
