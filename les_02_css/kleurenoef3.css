@@ -1,25 +1,18 @@
-html, body{
-    margin: 0%;
-}
-.red{
-    background-color: red;
-}
-.green{
-    background-color: green;
-}
-.blue{
-    background-color: blue;
-}
-.yellow{
-    background-color: yellow;
-}
-.box{
-    width: 200px;
-    height: 200px;
-    float: left;
-}
-.container{
-    width: 500px;
-    margin: auto;
-    margin-top: 50px;
-}
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="kleurenoef3.css">
+        <style>
+            div{
+                display: block;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container"></div>
+        <div class="box" class="red"></div>
+        <div class="box" class="green"></div>
+        <div class="box" classe="blue"></div>
+        <div class="box" classe="yellow"></div>
+    </body>
+</html>
