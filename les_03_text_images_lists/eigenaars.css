@@ -8,4 +8,13 @@ h1{
     padding-top: 15px;
     padding-bottom: 15px;
 }
+.padding a:link{
+    color: blue;
+}
+.padding a:visited{
+    color: green;
+}
+.padding a:hover{
+    color: red;
+}
 
