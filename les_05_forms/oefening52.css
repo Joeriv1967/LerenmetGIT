@@ -1,0 +1,16 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    font-weight: bold;
+}
+form{
+    width: 50%;
+}
+input{
+    border-radius: 1em;
+    width: auto;
+}
+.colorregistreren{
+    background-color: lightgray;
+    margin-top: auto;
+}
