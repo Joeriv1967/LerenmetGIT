@@ -1,0 +1,28 @@
+body{
+    font-family: 'Times New Roman', Times, serif; 
+}
+
+td,th{
+    border: solid 1px black;
+    height: 50px;
+    margin: 4px;
+    text-align: center;
+}
+table{
+    border: solid 3px black;
+    border-collapse: collapse;
+}
+.greencell{
+    background-color: green;
+}
+.redcel{
+    background-color: red;
+}
+.col2en3{
+    width: 200px;
+
+}
+.col4en5{
+    width: 100px;
+
+}

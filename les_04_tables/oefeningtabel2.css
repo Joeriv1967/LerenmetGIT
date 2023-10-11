@@ -1,0 +1,16 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+}
+td,th{
+    border: solid 0.5px black;
+    height: 50px;
+}
+th{
+    background-color: orangered;
+    color: white;
+}
+.color{
+background-color: black;
+color: white;
+width: 75px;
+}

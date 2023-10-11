@@ -1,0 +1,19 @@
+body{
+    font-family: 'Times New Roman', Times, serif 12px;
+}
+h1{
+    color: orangered;
+    font-weight: 100;
+}
+table{
+    border: solid 1px black;
+    border-collapse: collapse;
+}
+th,td{
+    border: solid 1px lightgray;
+    height: 50px;
+    padding: 15px;
+}
+caption{
+    caption-side: bottom;
+}
