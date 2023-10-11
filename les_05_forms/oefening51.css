@@ -1,0 +1,14 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+label{
+    font-size: large;
+    font-weight: bold;
+}
+.blauw{
+background-color: aqua;
+}
+.grijs{
+background-color: gray;
+}
