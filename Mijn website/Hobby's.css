@@ -12,3 +12,9 @@ a{
     color: white;
     margin-left: 10px;
 }
+p,h2{
+    color: white;
+}
+img{
+    width: 50%;
+}
