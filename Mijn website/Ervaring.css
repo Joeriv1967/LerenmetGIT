@@ -1,14 +1,28 @@
 body{
-    background-color: black;
+    font-family: 'Times New Roman', Times, serif;
 }
 h1 {
     background-color: black;
-    color: white;
+    color: lightgray;
     margin-left: auto;
     text-align: center;
     text-size-adjust: 50px; 
 }
 a{
-    color: white;
     margin-left: 10px;
+}
+a:link{
+    color: gray;
+}
+a:visited{
+    color: rgb(243, 61, 61);
+}
+A:hover{
+    color: green;
+}
+div{
+    background-color: black;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
 }

@@ -6,26 +6,37 @@
 <title>Contact</title>
     </Head>
     <Body>
+      <div>
         <a href="Index.html">Link naar Homepage</a>
         <h1>Contact</h1>
-        <p> Indien je contact met me wil nemen vul dan onderstaande gegevens in en ik contacteer u zo spoedig mogelijk.</p>
+      </div>
+        <p>- Indien je contact met me wenst op te nemen vul dan onderstaande gegevens in.</p>
+        <P>- In de bericht box zet je de reden waarom je contact wenst op te nemen.</P>
+        <div class="form">
      <form action="https://tm-statweb.be/form.php" method="post"></form>
-     <div>
-        <label for="Naam en voornaam"> Naam en voornaam*</label>
-        <input type="text" name="Naam en voornaam" id="Naam en voornaam">
-     </div>
-     <div>
+        <label for="Voornaam">Voornaam*</label> 
+        <input required type="text" name="Voornaam" id="Voornaam" placeholder="Jef"> 
+      </div>
+        <div class="form">
+      <label for="Achternaam">Achternaam*</label>
+      <input required type="text" name="Achternaam" id="Achternaam" placeholder="Fransen">
+   </div>
+      <div class="form">
         <label for="e-mail">e-mail*</label>
-        <input type="email" id="email" name="email">
-     </div>
-     <div>
+        <input required type="email" id="email" name="email" placeholder="jef.fransen@email.com">
+      </div>
+        <div class="form">
+      <label for="Telefoonnummer">Telefoonnummer*</label>
+      <input type="tel" name="Telefoonnummer" id="Telefoonnummer" value="Optioneel">
+   </div>
+      <div class="form">
         <label for="Bericht">Bericht*</label>
-        <textarea name="Bericht" id="Bericht" cols="30" rows="10"></textarea>
-     </div>
-     <div>
+        <textarea required name="Bericht" id="Bericht" cols="30" rows="10" placeholder="Wat,waarom, enz"></textarea>
+      </div>
+        <div class="form">
         <label for="Verzenden">
             <input type="submit" value="Verzenden" id="Verzenden" name="Verzenden">
         </label>
-     </div>
+      </div>
     </Body>
 </html>
