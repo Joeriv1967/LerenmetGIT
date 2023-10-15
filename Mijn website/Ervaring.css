@@ -26,3 +26,12 @@ div{
     position: sticky;
     top: 0;
 }
+table,th,td{
+    color: gray;
+    border: solid 1px gray;
+}
+p{
+    font-size: large;
+    font-weight: 200;
+
+}
