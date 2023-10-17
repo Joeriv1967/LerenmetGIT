@@ -11,5 +11,41 @@
         <h1>Forum</h1>
     </div>
 <h2>Welkom op de forum pagina</h2>
+</div>
+<p>Als je een vraag hebt of een antwoord wenst te geven op 1 van de onderstaande vragen of je wilt je mengen in een discussie. <br>
+    Dan moet je de vraag nummer, je nickname en wat je te zeggen hebt zeker opgeven.</p>
+<div class="form">
+<form action="https://tm-statweb.be/form.php" method="post"></form>
+<label for="Voornaam">Voornaam*</label> 
+<input required type="text" name="Voornaam" id="Voornaam" placeholder="Jef"> 
+</div>
+<div class="form">
+<label for="Achternaam">Achternaam*</label>
+<input required type="text" name="Achternaam" id="Achternaam" placeholder="Fransen">
+</div>
+<div class="form">
+<label for="Nickname">Nickname*</label>
+<input required type="text" id="Nickname" name="Nickname" placeholder="@Jbroer">
+</div>
+<div class="form">
+<label for="Nummer">Nummer probleem*</label>
+<input type="text" name="Nummer" id="Nummer" placeholder="1A">
+</div>
+<div class="form">
+<label for="Bericht">Bericht*</label>
+<textarea required name="Bericht" id="Bericht" cols="30" rows="10" placeholder="Een vraag ivm een probleem, een antwoord op een gepost probleem"></textarea>
+</div>
+<div class="form">
+<label for="Verzenden">
+    <input type="submit" value="Verzenden" id="Verzenden" name="Verzenden">
+</label>
+</div>
+<hr>
+<table>
+    <tr>
+        <td> Vraag 1A </td>
+        <td><textarea readonly name="Portfolio" id="Portfolio" cols="50" rows="10">Statement: Avondschool in combinatie met voltijds werken is niet te onderschatten. Dit zou meer verlof moeten geven. </textarea></td>
+    </tr>
+</table>
     </Body>
 </html>

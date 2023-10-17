@@ -31,3 +31,10 @@ div{
     position: sticky;
     top: 0;
 }
+.form{
+    background-color: white;
+    color: gray;
+    margin: 5px;
+    padding-left: auto;
+    margin-left: 20px;
+}
