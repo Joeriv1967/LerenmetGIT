@@ -1,0 +1,34 @@
+.container{
+    display: grid;
+    height: 100vh;
+    width: 100vw;
+    grid-template-columns: 200px auto;
+    grid-template-rows: 150px auto 75px;
+    grid-template-areas: 
+    "header header"
+    "aside main"
+    "footer footer";
+    grid-gap: 0.4rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 12pt;
+    color: white;
+    text-align: center;
+    margin: 0 auto;
+}
+.lichtblauw{
+    grid-area:header;
+background-color: blue;
+
+}
+.donkerblauw{
+    grid-area: main;
+background-color: darkblue;
+}
+.bruin{
+    grid-area: footer ;
+background-color: burlywood;
+}
+.groen{
+    grid-area: aside;
+background-color: green;
+}
