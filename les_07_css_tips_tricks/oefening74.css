@@ -1,0 +1,20 @@
+.col1{
+width: 60%;
+padding: 15px;
+}
+.col2{
+width: 40%;
+padding: 15px;
+}
+.col3{
+ width: 25%;
+padding: 15px;
+}
+
+@media(width <= 900px){
+    .col1, .col2, .col3 {
+        width: 100%;
+        padding: 15px;
+        }
+       
+}

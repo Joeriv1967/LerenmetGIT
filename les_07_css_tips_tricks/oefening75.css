@@ -1,0 +1,40 @@
+.header, .footer{
+    border: solid black 0.5px;
+    background-color: black ;
+    color: white;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+.con1{
+    object-position: center;
+
+}
+
+.nav{
+    background-color: grey;
+
+}
+#nav.item{
+    width: 100%;
+    font-size: 1.2rem;
+}
+
+#content{
+    width: 70%;
+    padding: 5px;
+    overflow: auto;
+}
+#nav{
+    line-height: 30px;
+    background-color: lightgray;
+    height: 500px;
+    width: 30%;
+    padding: 5px;
+    float: left;
+}
+#footer{
+    background-color: black;
+    color: white;
+    clear: both;
+    
+}
