@@ -1,0 +1,23 @@
+.bos1{
+    
+    width: 30%;
+    padding: 15px;
+
+}
+
+.bos2{
+   
+    width: 70%;
+    padding: 15px;
+
+}
+
+
+@media(width <= 800px){
+    .bos1, .bos2{
+    
+        width: 100%;
+        padding: 15px;
+    
+    }
+}

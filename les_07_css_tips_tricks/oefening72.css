@@ -1,0 +1,29 @@
+.yellow{
+    border: solid 0.5px color(yellow);
+    width: 50%;
+    height: 100px;
+    object-position: left;
+    background-color: yellow;
+    color: black;
+}
+.red{
+    border: solid 0.5px color(red);
+    width: 75%;
+    height: 200px;
+    padding: 5px;
+    object-position: left;
+    background-color: red;
+    color: black;
+}
+.white{
+    border: solid 0.5px color(white);
+    width: 50%;
+    height: 300px;
+    padding: 5px;
+    object-position: left;
+    background-color: white;
+    color: black;
+}
+body{
+    background-color: grey;
+}

@@ -1,0 +1,9 @@
+.bg{
+    border: solid color(blue) 0.5px;
+    width: 300px;
+    object-position: center;
+    background-color: blue;
+    color: white;
+    margin-top: 10px;
+    padding: 10px;
+}
